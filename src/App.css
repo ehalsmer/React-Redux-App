@@ -2,3 +2,27 @@
   text-align: center;
 }
 
+/* .telemetry {
+  display: flex;
+  width: 75vw;
+  height: 100vh;
+} */
+
+.mainContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.launchImages {
+  height: 4rem;
+  width: 9rem;
+  overflow: hidden;
+  /* object-fit: contain */
+}
+.launchImages:hover {
+  /* overflow:  */
+  transform: scale(1.1, 1.1);
+  overflow: visible;
+}

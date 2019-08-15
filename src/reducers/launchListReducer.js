@@ -4,8 +4,6 @@ const initialState = {
     error: ''
 }
 
-
-
 export const reducer = ( state = initialState, action) => {
     switch (action.type) {
         case 'FETCH_LAUNCHES_START':

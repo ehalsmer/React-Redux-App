@@ -7,6 +7,7 @@ import thunk from 'redux-thunk';
 import { reducer } from './reducers/launchListReducer';
 
 import './index.css';
+import "semantic-ui-css/semantic.min.css"; 
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
