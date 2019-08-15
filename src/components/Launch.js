@@ -2,7 +2,7 @@ import React from 'react';
 
 const Launch = (props) => {
     return (
-        <h1>{props.launch.test2}</h1>
+        <h1>{props.launch.mission_name}</h1>
     )
 }
 
