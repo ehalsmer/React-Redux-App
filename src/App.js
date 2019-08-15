@@ -5,7 +5,7 @@ import LaunchList from './components/LaunchList';
 function App() {
   return (
     <div className="App">
-      <h1>SpaceX Telemetry Viewer</h1>
+      <h1>SpaceX Launch Photos</h1>
       <LaunchList />
     </div>
   );

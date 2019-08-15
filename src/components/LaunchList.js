@@ -11,7 +11,7 @@ const LaunchList = props => {
   const state = useSelector(state => state);
   return (
     <div className="mainContainer">
-          <Button basic onClick={props.getLaunches}>Get Launches</Button>
+          {!state.isLoading && <Button basic onClick={props.getLaunches}>Get Launches</Button>}
           {state.isLoading ? (
             <Loader 
                 type="BallTriangle" 

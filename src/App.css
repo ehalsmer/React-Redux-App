@@ -14,15 +14,27 @@
   flex-direction: column;
   align-items: center;
 }
-
+.imgsContainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 50rem;
+}
 .launchImages {
-  height: 4rem;
-  width: 9rem;
-  overflow: hidden;
-  /* object-fit: contain */
+  height: 6rem;
+  width: auto;
+  opacity: 0.9;
 }
 .launchImages:hover {
-  /* overflow:  */
   transform: scale(1.1, 1.1);
-  overflow: visible;
+  opacity: 1.0;
+  transition: opacity 0.3s
+}
+
+#modalImg {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
