@@ -8,6 +8,7 @@ import {
   Modal
 } from "semantic-ui-react";
 
+
 const Launch = props => {
   return (
     <Segment>
@@ -22,7 +23,7 @@ const Launch = props => {
       </Header>
       <Container text>
         <p>
-          Date: {props.launch.launch_date_local}{" "}
+          <strong>Date:</strong> {props.launch.launch_date_local.slice(0,10)}{" "}
           {props.launch.telemetry.flight_club && (
             <a href={props.launch.telemetry.flight_club}>
               <Icon name="rocket" />
@@ -30,7 +31,7 @@ const Launch = props => {
             </a>
           )}{" "}
         </p>
-        <p>Launch Site: {props.launch.launch_site.site_name_long}</p>
+        <p><strong>Launch Site:</strong> {props.launch.launch_site.site_name_long}</p>
       </Container>
         
 
