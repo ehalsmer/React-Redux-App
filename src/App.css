@@ -27,9 +27,22 @@
   opacity: 0.9;
 }
 .launchImages:hover {
-  transform: scale(1.1, 1.1);
+  cursor: pointer;
+  transform: scale(1.03, 1.03);
   opacity: 1.0;
   transition: opacity 0.3s
+}
+
+
+/* 
+.modalClass {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin: 0;
+  text-align: center;
+
 }
 
 #modalImg {
@@ -37,4 +50,4 @@
   padding: 0;
   display: flex;
   justify-content: center;
-}
+} */

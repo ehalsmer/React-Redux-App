@@ -39,14 +39,14 @@ const Launch = props => {
       <div className="imgsContainer">
         {props.launch.links.flickr_images.map(image => {
           return (
-            <Modal textAlign="center" dimmer="inverted" basic centered trigger={            
+            <Modal basic image centered={true} className="modalClass" trigger={            
                 <Image
                 className="launchImages"
                 // href={image}
                 alt="Launch image"
                 src={image}
               />}>
-                    <Image id="modalImg" src={image} size='huge'/>
+                    <Image wrapped id="modalImg" src={image} size='big'/>
 
             </Modal>
 
